@@ -8,7 +8,7 @@ upload:
 
 format:
 	isort .
-	black --target-version py36 .
+	black --target-version py38 .
 
 check_format:
 	isort . --check --diff
