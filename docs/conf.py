@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('..'))
 
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.intersphinx', 'sphinx.ext.viewcode']
 
-project = 'aiohttp-apispec'
+project = 'aiohttp-apispec-acapy'
 author = 'Maksim Danilchenko'
 copyright = 'Maksim Danilchenko and contributors {0:%Y}'.format(dt.datetime.utcnow())
 version = '0.3.2'
